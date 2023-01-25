@@ -151,13 +151,22 @@
 			path = Good;
 			sourceTree = "<group>";
 		};
-		C1D5DFAC2980D30600A205B0 /* View */ = {
+		C1D5DFAF298104A300A205B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				C1F989A2297FA29100BEA11D /* ViewController.swift */,
 				C1F989A4297FA29100BEA11D /* Main.storyboard */,
 			);
-			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1D5DFB0298104C900A205B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1F989A7297FA29500BEA11D /* Assets.xcassets */,
+				C17389F3297FA8E000126752 /* Stub.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C1F98992297FA29100BEA11D = {
@@ -179,16 +188,15 @@
 		C1F9899D297FA29100BEA11D /* MoyaTest */ = {
 			isa = PBXGroup;
 			children = (
+				C1F989AC297FA29500BEA11D /* Info.plist */,
 				C1F9899E297FA29100BEA11D /* AppDelegate.swift */,
 				C1F989A0297FA29100BEA11D /* SceneDelegate.swift */,
+				C1F989A9297FA29500BEA11D /* LaunchScreen.storyboard */,
 				C1D5DF932980CC3200A205B0 /* Data */,
 				C1D5DF8E2980CB2100A205B0 /* Models */,
 				C1D5DFA12980CECA00A205B0 /* Repositories */,
-				C1D5DFAC2980D30600A205B0 /* View */,
-				C17389F3297FA8E000126752 /* Stub.json */,
-				C1F989A7297FA29500BEA11D /* Assets.xcassets */,
-				C1F989A9297FA29500BEA11D /* LaunchScreen.storyboard */,
-				C1F989AC297FA29500BEA11D /* Info.plist */,
+				C1D5DFAF298104A300A205B0 /* View */,
+				C1D5DFB0298104C900A205B0 /* Resources */,
 			);
 			path = MoyaTest;
 			sourceTree = "<group>";
